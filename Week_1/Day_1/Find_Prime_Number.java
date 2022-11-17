@@ -10,21 +10,27 @@ public class Find_Prime_Number
 	
 	public static void main(String[] args) 
 	{
-		System.out.printf("Enter 1 to find a prime number or Enter 2 to find prime number between two numbers:");
+		System.out.printf("Enter 1: To find a prime number.\nEnter 2: To find prime number between two numbers.\n\nPlease give your option: ");
 		num = sc.nextInt();
 		if (num==1)
 		{
+			System.out.println("\n");
 			findNo();
 		}
 		else if (num==2)
 		{
+			System.out.println("\n");
 		betweenNo();
+		}
+		else
+		{
+			System.out.println("\nWrong Option Selected");
 		}
 	}
 	
 	public static void findNo() 
 	{
-		System.out.println("Please Enter the Number to Check for Prime Number: "); 
+		System.out.printf("Please Enter the Number to Check for Prime Number: "); 
 		num = sc.nextInt();
 		
 		for (int i = 1; i <= num; i++) 
@@ -37,11 +43,11 @@ public class Find_Prime_Number
 		
 		if (count == 2 || count == 1) 
 		{
-			System.out.println("The given number "+num+" is prime");
+			System.out.println("\nThe given number "+num+" is a prime");
 		} 
 		else 
 		{
-			System.out.println("The given number "+num+" is not prime");
+			System.out.println("\nThe given number "+num+" is not a prime");
 		}
 	}
 	
@@ -56,7 +62,7 @@ public class Find_Prime_Number
 		System.out.printf("Please Enter the Second Number to Check for Prime Number: "); 
 		last = sc.nextInt();
 		
-		System.out.printf("\nPrime numbers between %d and %d are: ", first, last);
+		System.out.printf("\n\nPrime numbers between %d and %d are: ", first, last);
 		
 		if (first<last)
 		{
@@ -86,7 +92,7 @@ public class Find_Prime_Number
             // and count = 0 means i is not prime
 			
 			if(count==1)
-			System.out.println(i);
+				System.out.printf(i+",");
 		} 
 		}
 		else
@@ -117,7 +123,7 @@ public class Find_Prime_Number
 	            // and count = 0 means i is not prime
 				
 				if(count==1)
-				System.out.println(i);
+				System.out.printf(i+",");
 			}	
 		}
 		

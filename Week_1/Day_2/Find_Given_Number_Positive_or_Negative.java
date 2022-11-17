@@ -11,7 +11,7 @@ public class Find_Given_Number_Positive_or_Negative
 	
 	{
 		
-	System.out.printf("Please Enter an Positive or Negative Integer:");
+	System.out.printf("Please Enter an Positive or Negative Integer: ");
 	int num = sc.nextInt();
 	
 	if (num==0)

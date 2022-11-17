@@ -12,16 +12,15 @@ public class Sum_of_Digits {
 		System.out.printf("Please Enter a Integer Value to find the Sum of Digits: ");
 		int num = sc.nextInt(), sum = 0, rem, org = num;
 		
+		
 		while(num>0)
 		{
 			rem = num % 10;
-			System.out.println();
 			sum = sum + rem;
 			num = num/10;
 		}
 		
-		
-		System.out.println("Sum of the Given Digit "+org+" is : "+sum);
+		System.out.printf("\n\nSum of the Given Digit "+org+" is : "+sum);
 		
 	}
 

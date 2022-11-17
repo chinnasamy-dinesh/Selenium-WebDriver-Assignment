@@ -14,14 +14,14 @@ public class Fraction_Of_A_Number {
 	
 	public static void findFact()
 	{
-		System.out.println("Enter the number to find the Factorial: ");
+		System.out.printf("Enter the number to find the Factorial: ");
 		num = sc.nextInt();
 		
 		for (int i = 1; i <= num; i++)
 		{
 			fact = fact*i;
 		}
-		System.out.println("Factorial of "+num+" is : "+fact);
+		System.out.println("\nFactorial of "+num+" is : "+fact);
 	}
 	
 }

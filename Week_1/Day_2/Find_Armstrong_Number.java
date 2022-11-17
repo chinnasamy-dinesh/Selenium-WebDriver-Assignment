@@ -8,7 +8,7 @@ public class Find_Armstrong_Number
 
 	public static void main(String[] args) 
 	{
-		System.out.println("Enter the number to find the Armstrong Number: ");
+		System.out.printf("Enter the number to find the Armstrong Number: ");
 		int arms = sc.nextInt();
 		int org = arms, rem, sum = 0;
 		
@@ -22,11 +22,11 @@ public class Find_Armstrong_Number
 		
 		if (sum != arms)
 		{
-			System.out.println(arms+" is not a Armstrong Number.");
+			System.out.println("\n"+arms+" is not a Armstrong Number.");
 		}
 		else
 		{
-			System.out.println(arms+" is a Armstrong Number.");
+			System.out.println("\n"+arms+" is a Armstrong Number.");
 		}
 	}
 }

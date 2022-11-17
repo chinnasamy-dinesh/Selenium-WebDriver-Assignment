@@ -10,7 +10,7 @@ public class Print_FibonacciSeries
 	{
 
 		int n1 = 0, sum=0, n2 = 1;
-		System.out.printf("Input number of Fibonacci Series numbers to print:");
+		System.out.printf("Input number of Fibonacci Series numbers to print: ");
 		int input = sc.nextInt(); 
 
 		for (int i=1; i <= input; i++) 

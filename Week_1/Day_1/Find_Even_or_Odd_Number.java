@@ -24,6 +24,10 @@ public class Find_Even_or_Odd_Number
 		{
 		betweenEven();	
 		}
+		else
+		{
+			System.out.println("\nWrong Option Selected");
+		}
 	}
 	
 	public static void findNo() 
